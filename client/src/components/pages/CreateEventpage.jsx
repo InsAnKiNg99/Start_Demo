@@ -2,7 +2,7 @@ import React from 'react'
 
 function CreateEventpage() {
   return (
-    <div>CreateEventpage</div>
+    <div>CreateEvent</div>
   )
 }
 
