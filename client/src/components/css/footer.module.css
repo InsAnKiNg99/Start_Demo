@@ -1,0 +1,30 @@
+.footer {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px 20px;
+  background-color: rgb(15 23 42 / var(--tw-bg-opacity, 1));;
+  color: white;
+  flex-wrap: wrap;
+}
+
+.footer_column {
+  display: flex;
+  flex-direction: column;
+  min-width: 180px;
+  margin: 10px;
+}
+
+.footer_column h4 {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.footer_column a {
+  color: white;
+  margin-bottom: 8px;
+  transition: color 0.2s;
+}
+
+.footer_column a:hover {
+  text-decoration: underline;
+}

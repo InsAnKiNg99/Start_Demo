@@ -1,9 +1,12 @@
-import React from 'react'
-
+import React from "react";
+import Sidebar from "../Sidebar.jsx";
 function CreateEventpage() {
   return (
-    <div>CreateEvent</div>
-  )
+    <div>
+      <Sidebar />
+      CreateEvent
+    </div>
+  );
 }
 
-export default CreateEventpage
+export default CreateEventpage;

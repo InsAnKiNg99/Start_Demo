@@ -1,9 +1,12 @@
-import React from 'react'
-
+import React from "react";
+import Sidebar from "../Sidebar.jsx";
 function Shopepage() {
   return (
-    <div>Shopepage</div>
-  )
+    <div>
+      <Sidebar />
+      Shopepage
+    </div>
+  );
 }
 
-export default Shopepage
+export default Shopepage;
